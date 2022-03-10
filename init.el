@@ -134,7 +134,8 @@
        ;;idris             ; a language you can depend on
        ;;json              ; At least it ain't XML
        ;;(java +meghanada) ; the poster child for carpal tunnel syndrome
-       javascript        ; all(hope(abandon(ye(who(enter(here))))))  npm i -g typescript-language-server; npm i -g typescript
+       (javascript +lsp)       ; all(hope(abandon(ye(who(enter(here))))))  npm i -g typescript-language-server; npm i -g typescript
+       ;; also need to install ts-ls, https://emacs-lsp.github.io/lsp-mode/page/lsp-typescript/
        ;;julia             ; a better, faster MATLAB
        ;;kotlin            ; a better, slicker Java(Script)
        ;;latex             ; writing papers in Emacs has never been so fun
